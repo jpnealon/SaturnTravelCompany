@@ -15,7 +15,7 @@ The initial plan for this project will be to focus on recreating my saturn trave
 
 In order to utilize my skills in html, css, php, and javascript, I plan to try and replicate a mock travel company website for the fictional "Saturn Traval Company" and will aim to be as detailed as I can towards my own representation of what realistic modern space travel company might be like.
 
-### Brocure
+### Brochure
 
 At some point, I am going to try to find my high school journals to try and find my original designs but the original assignment was to design a "planet themed brochure" with the main intention to just be a fact sheet for an assigned planet, I just went above and beyond to create a fictional company and a general wix website (that I believe is now unrecoverable unfortunately).
 
