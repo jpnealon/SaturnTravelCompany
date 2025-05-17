@@ -27,6 +27,46 @@
  * - List any pending tasks or improvements that are planned for future updates.
  * 
  -->
+
+  <?php
+    /*
+    session_start();
+    // connection params
+    $config = parse_ini_file("./config.ini");
+    $server = $config["servername"];
+    $username = $config["username"];
+    $password = $config["password"];
+    $database = "gu_devices";
+
+    // connect to db
+    $cn = mysqli_connect($server , $username , $password , $database );
+
+    // check connection
+    if (!$cn) {
+        die("Connection failed: " . mysqli_connect_error ());
+    }
+
+    // set up the prepared statement
+    $user = $_SESSION["session_user"];
+    $q = "SELECT client FROM User WHERE user_name = '$user'";
+
+    $st = $cn ->stmt_init ();
+    $st ->prepare($q);
+
+    // execute the statement and bind the result (to vars)
+    $st ->execute ();
+    $st ->bind_result($cl);
+
+    $st->fetch();
+
+    $CLIENT = $cl;
+
+    // clean up
+    $st ->close ();
+    $cn ->close ();
+    */
+  ?>
+
 <!DOCTYPE html>
 <html>
 <head>
