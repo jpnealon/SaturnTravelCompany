@@ -2,7 +2,7 @@
 ## Project Master Document
 
 Project Author: Jack Nealon (jnealon0805@gmail.com) <br>
-Project Author URI: https://github.com/JPNealon
+Project Author URI: https://github.com/jpnealon
 
 
 This document is subject to change as I see fit and as the project progresses. See disclaimersa t the bottom of this document. 
