@@ -36,7 +36,7 @@
     $server = $config["servername"];
     $username = $config["username"];
     $password = $config["password"];
-    $database = "gu_devices";
+    $database = "";
 
     // connect to db
     $cn = mysqli_connect($server , $username , $password , $database );
@@ -75,7 +75,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/styling/style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 .myLink {display: none}
@@ -85,7 +85,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
 <!-- Navigation Bar -->
 <div class="bar white border-bottom xlarge">
-  <a href="#" class="bar-item button text-red hover-red"><b><i class="fa fa-map-marker margin-right"></i>Logo</b></a>
+  <a href="#" class="bar-item button text-red hover-red"><b><i class="fa fa-map-marker margin-right"></i>Saturn Travel Company</b></a>
   <a href="#" class="bar-item button right hover-red text-grey"><i class="fa fa-search"></i></a>
 </div>
 
@@ -94,14 +94,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <img class="image" src="/resources/london2.jpg" alt="London" width="1500" height="700">
   <div class="display-middle" style="width:65%">
     <div class="bar black">
-      <button class="bar-item button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane margin-right"></i>Flight</button>
-      <button class="bar-item button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed margin-right"></i>Hotel</button>
-      <button class="bar-item button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car margin-right"></i>Rental</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Flight');"><i class="fa-solid fa-shuttle-space margin-right"></i>Shuttles</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-globe margin-right"></i>Planetary Stations</button>
+      <button class="bar-item button tablink" onclick="openLink(event, 'Car');"><i class="fa-solid fa-satellite margin-right"></i>Orbital Stations</button>
     </div>
 
     <!-- Tabs -->
     <div id="Flight" class="container white padding-16 myLink">
-      <h3>Travel the world with us</h3>
+      <h3>Travel other worlds with us</h3>
       <div class="row-padding" style="margin:0 -16px;">
         <div class="half">
           <label>From</label>
@@ -112,19 +112,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
           <input class="input border" type="text" placeholder="Arriving at">
         </div>
       </div>
-      <p><button class="button dark-grey">Search and find dates</button></p>
+      <p><button class="button dark-grey">Search and find launches</button></p>
     </div>
 
     <div id="Hotel" class="container white padding-16 myLink">
-      <h3>Find the best hotels</h3>
-      <p>Book a hotel with us and get the best fares and promotions.</p>
+      <h3>Find the best places to stay</h3>
+      <p>Book a room with us and get the best fares and promotions.</p>
       <p>We know hotels - we know comfort.</p>
       <p><button class="button dark-grey">Search Hotels</button></p>
     </div>
 
     <div id="Car" class="container white padding-16 myLink">
-      <h3>Best car rental in the world!</h3>
-      <p><span class="tag deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+      <h3>Best vehicle rentals among the worlds!</h3>
+      <p><span class="tag deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere with Spacespaceiluvspacelol</p>
       <input class="input border" type="text" placeholder="Pick-up point">
       <p><button class="button dark-grey">Search Availability</button></p>
     </div>
@@ -187,19 +187,19 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <div class="half margin-bottom">
       <img src="/resources/ocean2.jpg" alt="Norway" style="width:100%">
       <div class="container white">
-        <h3>West Coast, Norway</h3>
-        <p class="opacity">Roundtrip from $79</p>
+        <h3>Europa, Moon of Jupiter</h3>
+        <p class="opacity">Roundtrip from $79,000,000</p>
         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-        <button class="button margin-bottom">Buy Tickets</button>
+        <button class="button margin-bottom">Purchase Tickets</button>
       </div>
     </div>
     <div class="half margin-bottom">
       <img src="/resources/mountains2.jpg" alt="Austria" style="width:100%">
       <div class="container white">
-        <h3>Mountains, Austria</h3>
-        <p class="opacity">One-way from $39</p>
+        <h3>Pluto, Outer Solar System</h3>
+        <p class="opacity">One-way from $99,000,000</p>
         <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-        <button class="button margin-bottom">Buy Tickets</button>
+        <button class="button margin-bottom">Purchase Tickets</button>
       </div>
     </div>
   </div>
@@ -219,9 +219,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="container">
     <h2>Contact</h2>
     <p>Let us book your next trip!</p>
-    <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+    <i class="fa fa-map-marker" style="width:30px"></i> Narnia, US<br>
     <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-    <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+    <i class="fa fa-envelope" style="width:30px"> </i> Email: jsmith@saturntravel.com<br>
     <form action="/action_page.php" target="_blank">
       <p><input class="input padding-16 border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="input padding-16 border" type="text" placeholder="Email" required name="Email"></p>
