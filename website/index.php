@@ -91,7 +91,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
 <!-- Header -->
 <header class="display-container content hide-small" style="max-width:1500px">
-  <img class="image" src="/resources/london2.jpg" alt="London" width="1500" height="700">
+  <img class="image" src="/resources/planetscape_flat_moon.jpg" alt="London" width="1500" height="700">
   <div class="display-middle" style="width:65%">
     <div class="bar black">
       <button class="bar-item button tablink" onclick="openLink(event, 'Flight');"><i class="fa-solid fa-shuttle-space margin-right"></i>Shuttles</button>
